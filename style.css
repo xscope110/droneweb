@@ -3,6 +3,10 @@
 body {
   color: #323333;
   margin:0px;
+  background-image: url('home_bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 a {
@@ -11,7 +15,7 @@ a {
 }
 
 a:hover {
-  color: #c2372d;
+  color: #f5ba25;
 }
 
 @media screen and (min-width: 601px) {
@@ -30,10 +34,11 @@ a:hover {
   display: grid;
   min height: 200px;
   /*grid-auto-flow: column;*/
-  background-color: #c7c7c7;
+  background-color: #edfdff;
   grid-gap: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  opacity: 80%;
 
 }
 @media screen and (max-width: 600px) {

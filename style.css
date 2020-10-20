@@ -14,12 +14,22 @@ a:hover {
   color: #47cccc;
 }
 
+@media screen and (min-width: 601px) {
+  .nav {
+    grid-auto-flow: column;
+  }
+}
 
+@media screen and (max-width: 600px) {
+  .nav {
+    grid-auto-flow: row;
+  }
+}
 
 .nav {
   display: grid;
   min height: 200px;
-  grid-auto-flow: column;
+  /*grid-auto-flow: column;*/
   background-color: #c7c7c7;
   grid-gap: 20px;
   padding-left: 20px;
@@ -33,11 +43,23 @@ a:hover {
   font-size: 25px;
 }
 
+@media screen and (min-width: 601px) {
+  #links {
+    grid-auto-flow: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #links {
+    grid-auto-flow: row;
+  }
+}
+
 #links {
   display: grid;
   /*justify-content: end;*/
   align-content: center;
-  grid-auto-flow: column;
+  /*grid-auto-flow: column;*/
   grid-gap: 20px;
   font-size: 15px;
 }

@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: #47cccc;
+  color: #c2372d;
 }
 
 @media screen and (min-width: 601px) {
@@ -51,7 +51,7 @@ a:hover {
 @media screen and (min-width: 601px) {
   #logo {
     justify-content: start;
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 600px) {

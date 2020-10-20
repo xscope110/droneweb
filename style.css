@@ -1,8 +1,40 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
+body {
+  color: #323333;
+  margin:0px;
+}
 
-#nav {
+a {
+  color: #323333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #47cccc;
+}
+.nav {
   display: grid;
   min height: 200px;
   grid-auto-flow: column;
+  background-color: #c7c7c7;
+  grid-gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#logo {
+  display: grid;
+  justify-content: start;
+  align-content: center;
+  font-size: 25px;
+}
+
+#links {
+  display: grid;
+  justify-content: end;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+  font-size: 15px;
 }

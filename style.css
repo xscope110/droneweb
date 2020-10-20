@@ -13,6 +13,9 @@ a {
 a:hover {
   color: #47cccc;
 }
+
+
+
 .nav {
   display: grid;
   min height: 200px;
@@ -25,14 +28,14 @@ a:hover {
 
 #logo {
   display: grid;
-  justify-content: start;
+  /*justify-content: start;*/
   align-content: center;
   font-size: 25px;
 }
 
 #links {
   display: grid;
-  justify-content: end;
+  /*justify-content: end;*/
   align-content: center;
   grid-auto-flow: column;
   grid-gap: 20px;

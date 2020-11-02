@@ -7,11 +7,17 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-family:arial;
 }
 
 a {
   color: #323333;
   text-decoration: none;
+}
+
+.active {
+  color: #f5ba25;
+
 }
 
 a:hover {
@@ -27,6 +33,7 @@ a:hover {
 @media screen and (max-width: 600px) {
   .nav {
     grid-auto-flow: row;
+    padding-bottom: 20px;
   }
 }
 
@@ -41,11 +48,7 @@ a:hover {
   opacity: 80%;
 
 }
-@media screen and (max-width: 600px) {
-  .nav {
-    padding-bottom: 20px;
-  }
-}
+
 
 #logo {
   display: grid;

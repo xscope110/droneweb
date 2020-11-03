@@ -1,6 +1,6 @@
-@charset "UTF-8";
+@charset "UTF-8"; /*encoding type, utf 8 is the prefered format*/ 
 
-body {
+body { /*setting body attributes*/
   color: #323333;
   margin:0px;
   background-image: url('home_bg.png');
@@ -10,21 +10,21 @@ body {
   font-family:arial;
 }
 
-a {
+a {/*setting link attributes*/
   color: #323333;
   text-decoration: none;
 }
 
-.active {
+.active { /*active link colour*/
   color: #f5ba25;
 
 }
 
-a:hover {
+a:hover { /*hover link colour*/
   color: #f5ba25;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) { /*making navbar resize when device screen changes to above or below a specific size*/
   .nav {
     grid-auto-flow: column;
   }
@@ -37,7 +37,7 @@ a:hover {
   }
 }
 
-.nav {
+.nav { /*setting navbar attributes*/
   display: grid;
   min height: 200px;
   /*grid-auto-flow: column;*/
@@ -50,13 +50,13 @@ a:hover {
 }
 
 
-#logo {
+#logo { /*setting logo attributes*/
   display: grid;
   /*justify-content: start;*/
   align-content: center;
 
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) { /*logo resizing when screen size changes*/
   #logo {
     justify-content: start;
     font-size: 20px;
@@ -68,7 +68,7 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) { /*links resizing when screen size changes*/
   a {
     font-size: 20px;
   }
@@ -80,7 +80,7 @@ a:hover {
   }
 }
 
-#links {
+#links { /*setting link attributes*/
   display: grid;
   /*justify-content: end;*/
   align-content: center;
@@ -89,7 +89,7 @@ a:hover {
   font-size: 15px;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) { /*link group resizing when screen size changes*/
   #links {
     justify-content: end;
     grid-auto-flow: column;
